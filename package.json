@@ -1,0 +1,8 @@
+{
+  "name": "aoc-2021",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}
