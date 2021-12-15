@@ -1,7 +1,7 @@
 const { readFile } = require("fs/promises");
 
 const run1 = async () => {
-  const input = await readFile("./input1.txt", {
+  const input = await readFile(`${__dirname}/input.txt`, {
     encoding: "utf-8",
   });
   const increaseCount = input
@@ -21,7 +21,7 @@ const run1 = async () => {
 };
 
 const run2 = async () => {
-  const input = await readFile("./input1.txt", {
+  const input = await readFile(`${__dirname}/input.txt`, {
     encoding: "utf-8",
   });
   const increaseCount = input

@@ -1,8 +1,7 @@
 const { readFile } = require("fs/promises");
-const { parse } = require("path/posix");
 
 const run1 = async () => {
-  const input = await readFile("./input2.txt", {
+  const input = await readFile(`${__dirname}/input.txt`, {
     encoding: "utf-8",
   });
   const parseLine = (s) => {
@@ -43,7 +42,7 @@ const run1 = async () => {
 };
 
 const run2 = async () => {
-  const input = await readFile("./input2.txt", {
+  const input = await readFile(`${__dirname}/input.txt`, {
     encoding: "utf-8",
   });
   const parseLine = (s) => {
